@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Загрузка файла</title>
+
+    <link href="/normalize.css" rel="stylesheet">
+    <link href="/app.css" rel="stylesheet">
+
+</head>
+<body>
+
+<form class="form">
+
+    <div class="form-field">
+        <label for="file">Выберите файл для загрузки:</label>
+        <input type="file" id="file" accept=".txt" required />
+    </div>
+
+    <div class="form-field">
+        <label for="separator">Введите разделительный символ:</label>
+        <input type="text" id="separator" required />
+    </div>
+
+    <button class="form-submit">Загрузить</button>
+
+</form>
+
+<div class="upload" status="none"></div>
+
+<div class="result"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="/app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+body {
+    background: #ccc;
+}
+
+.form {
+    max-width: 400px;
+    margin: 6rem auto;
+    padding: 2rem;
+
+    background: #fff;
+    border-radius: 1rem;
+
+    font-family: sans-serif;
+}
+
+.form .form-field {
+    margin-bottom: 1rem;
+}
+
+.form .form-field label {
+    display: block;
+}
+
+.form .form-field input {
+    width: 100%;
+
+    background: #eee;
+    border: none;
+
+    outline: none;
+}
+
+.form .form-submit {
+    width: 100%;
+
+    text-align: center;
+}
+
+
+
+.upload {
+    display: block;
+    height: 4rem;
+    width: 4rem;
+    margin: 0 auto;
+
+    background: #ddd;
+    border-radius: 50%;
+}
+.upload[status="load"] {
+    background: #ffc107;
+}
+.upload[status="success"] {
+    background: #4caf50;
+}
+.upload[status="error"] {
+    background: #f44336;
+}
+
+
+
+.result {
+    width: fit-content;
+    margin: 1rem auto;
+
+    font-size: 18px;
+    font-family: monospace;
+}
